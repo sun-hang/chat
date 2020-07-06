@@ -1,0 +1,166 @@
+/* 公共样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: transparent;
+    padding: 20px;
+}
+
+/* 登录样式 */
+
+.move {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000;
+    line-height: 2;
+    letter-spacing: 3px;
+    /* display: none; */
+}
+
+.move .login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: #fff;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.move .login h1 {
+    font-weight: 400;
+}
+
+.move .login .name {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* 主页样式 */
+
+.wrapper {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    /* display: none; */
+}
+
+.wrapper .left {
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+}
+
+.wrapper .left .title {
+    color: #777;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+.wrapper .left .users {
+    padding: 10px 0;
+    overflow-y: auto;
+}
+
+.wrapper .left .users li {
+    line-height: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.wrapper .left .users li:hover {
+    color: lemonchiffon;
+}
+
+.wrapper .left .users li.all {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.wrapper .right {
+    flex-grow: 1;
+    position: relative;
+    height: 100%;
+}
+
+.wrapper .right .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 100px;
+    width: 100%;
+    padding: 20px;
+    overflow: auto;
+}
+.wrapper .right .top li{
+    text-align: left;
+}
+.wrapper .right .top .log{
+    text-align: center;
+}
+.wrapper .right .bottom {
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 0 20px;
+    border-top: 1px solid #aaa;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .right .bottom .msg {
+    padding: 0;
+    width: 300px;
+    font-size: 1em;
+    flex-grow: 1;
+    line-height: 1;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 2px solid;
+}
+
+.wrapper .right .user, .wrapper .right .my {
+    font-weight: bold;
+    color: rgb(17, 118, 152);
+    font-size: 140%;
+}
+.wrapper .right .log{
+    font-size: 100%;
+    text-align: center;
+    color: gray;
+    margin: 5px;
+}
+.wrapper .right li {
+    margin: 10px 0;
+}
+.wrapper .right .gray {
+    color: gray;
+    font-size: 140%;
+}
+
+.wrapper .right .bottom span{
+    margin: 0 10px;
+}
