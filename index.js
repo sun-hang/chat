@@ -8,6 +8,6 @@ const server = http.createServer(app);
 require('./socketIO')(server);
 app.use(express.static(path.join(__dirname, 'public')))
 
-server.listen(5008, 'localhost', () => {
+server.listen(5008, () => {
     console.log('监听端口5008')
 })

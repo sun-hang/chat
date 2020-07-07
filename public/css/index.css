@@ -112,12 +112,15 @@ input {
     padding: 20px;
     overflow: auto;
 }
-.wrapper .right .top li{
+
+.wrapper .right .top li {
     text-align: left;
 }
-.wrapper .right .top .log{
+
+.wrapper .right .top .log {
     text-align: center;
 }
+
 .wrapper .right .bottom {
     height: 100px;
     position: absolute;
@@ -147,20 +150,29 @@ input {
     color: rgb(17, 118, 152);
     font-size: 140%;
 }
-.wrapper .right .log{
+
+.wrapper .right .log {
     font-size: 100%;
     text-align: center;
     color: gray;
     margin: 5px;
 }
+
 .wrapper .right li {
     margin: 10px 0;
 }
+
 .wrapper .right .gray {
     color: gray;
     font-size: 140%;
 }
 
-.wrapper .right .bottom span{
+.wrapper .right .bottom span {
     margin: 0 10px;
+}
+
+@media screen and (max-width:900px) {
+    .wrapper .left {
+        width: 20%;
+    }
 }

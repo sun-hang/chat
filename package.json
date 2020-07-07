@@ -12,7 +12,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node --inspect index",
-    "start": "nodemon -x npm run serve"
+    "start": "nodemon -x npm run serve",
+    "play": "node index"
   },
   "author": "",
   "license": "ISC"
